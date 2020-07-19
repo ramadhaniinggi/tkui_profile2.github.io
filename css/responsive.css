@@ -1,0 +1,189 @@
+/* laptop */
+@media all and (max-width: 1024px) {
+  /* index html */
+  .bg3-content {
+    left: 8%;
+  }
+}
+/* tablet */
+@media all and (max-width: 768px) {
+  /* index html */
+  .bg1-content h1,
+  .bg2-content h1,
+  .bg3-content h1 {
+    font-size: 65px;
+  }
+  .bg1-content {
+    top: 40%;
+  }
+}
+/* mobile l */
+@media all and (max-width: 425px) {
+  /* index html */
+  .bg1-content h1,
+  .bg2-content h1,
+  .bg3-content h1 {
+    font-size: 40px;
+  }
+  .bg1-content h3 {
+    font-size: 25px;
+  }
+  .bg2-content {
+    top: 40%;
+  }
+  .bg3-content {
+    top: 55%;
+    left: 2%;
+  }
+  .footer-content h5 {
+    font-size: 20px;
+  }
+  .footer-content p {
+    font-size: 16px;
+  }
+
+  /* latarbelakang html */
+  .latar-title .container h1 {
+    font-size: 35px;
+  }
+  blockquote p,
+  footer cite {
+    font-size: 16px;
+  }
+
+  /* visimisi html */
+
+  .visi-company h2,
+  .misi-company h2 {
+    font-size: 30px;
+  }
+  .arti-company p,
+  .visi-company p,
+  .misi-company ul {
+    font-size: 16px;
+  }
+
+  blockquote {
+    margin: 0 -20px;
+    padding: 12px 20px;
+  }
+  blockquote:before,
+  blockquote:after {
+    font-size: 50px;
+  }
+
+  /* layanan html */
+
+  .collapse .card-body p {
+    font-size: 16px;
+  }
+
+  /* kontak html */
+  input,
+  textarea {
+    width: 300px;
+  }
+}
+/* mobile m */
+@media all and (max-width: 375px) {
+  /* index html */
+  .bg1-content h1,
+  .bg2-content h1,
+  .bg3-content h1 {
+    font-size: 35px;
+  }
+  .bg1-content h3 {
+    font-size: 20px;
+  }
+  .footer-content h5 {
+    font-size: 18px;
+  }
+  .footer-content p {
+    font-size: 14px;
+  }
+
+  /* latarbelakang html */
+  .latar-title .container h1 {
+    font-size: 30px;
+  }
+  blockquote p,
+  footer cite {
+    font-size: 14px;
+  }
+
+  /* visimisi html */
+
+  .visi-company h2,
+  .misi-company h2 {
+    font-size: 25px;
+  }
+  .arti-company p,
+  .visi-company p,
+  .misi-company ul {
+    font-size: 14px;
+  }
+
+  /* layanan html */
+  .button-layanan {
+    font-size: 18px;
+  }
+
+  .collapse .card-body p {
+    font-size: 14px;
+  }
+}
+
+/* mobile s */
+@media all and (max-width: 320px) {
+  /* index html */
+  .bg1-content h1,
+  .bg2-content h1,
+  .bg3-content h1 {
+    font-size: 30px;
+  }
+  .bg1-content h3 {
+    font-size: 18px;
+  }
+  .footer-content h5 {
+    font-size: 16px;
+  }
+  .footer-content p {
+    font-size: 12px;
+  }
+
+  /* latarbelakang html */
+  .latar-title .container h1 {
+    font-size: 25px;
+  }
+  blockquote p,
+  footer cite {
+    font-size: 12px;
+  }
+
+  /* visimisi html */
+
+  .visi-company h2,
+  .misi-company h2 {
+    font-size: 20px;
+  }
+  .arti-company p,
+  .visi-company p,
+  .misi-company ul {
+    font-size: 12px;
+  }
+
+  /* layanan html */
+  .button-layanan {
+    font-size: 16px;
+  }
+
+  .collapse .card-body p {
+    font-size: 12px;
+  }
+
+  /* kontak */
+  input,
+  textarea {
+    width: 200px;
+  }
+}

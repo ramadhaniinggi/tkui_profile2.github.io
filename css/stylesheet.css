@@ -1,0 +1,202 @@
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("RobotoCondensed-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("RobotoCondensed-Regular.ttf") format("truetype");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto-Regular";
+}
+
+/* ! navbar */
+nav {
+  text-transform: uppercase;
+}
+
+.listNav,
+.dropListNav {
+  font-family: "Roboto-Bold";
+  font-weight: bold;
+  color: black !important;
+  font-size: 20px;
+}
+.listNav {
+  letter-spacing: 2px;
+  margin-right: 20px;
+}
+
+.listNav:hover,
+.dropListNav:hover {
+  color: orange !important;
+}
+
+.logoNav {
+  box-shadow: 5px 10px 8px #888888;
+}
+
+/* ! carousel */
+.bg1-content {
+  font-family: "Roboto-Bold";
+  position: absolute;
+  z-index: 20;
+  top: 35%;
+  left: 12%;
+}
+
+.bg1-content h1,
+.bg2-content h1,
+.bg3-content h1 {
+  color: white;
+  font-size: 85px;
+  text-shadow: 2px 2px 4px black;
+}
+
+.bg1-content h3 {
+  display: inline-block;
+  padding-top: 10px;
+  border-top: 5px solid white;
+  text-shadow: 3px 3px 8px black;
+  color: orange;
+  font-size: 40px;
+}
+
+.bg2-content {
+  font-family: "Roboto-Bold";
+  position: absolute;
+  z-index: 20;
+  top: 35%;
+  right: 12%;
+}
+
+.titik {
+  color: red;
+}
+
+.bg3-content {
+  font-family: "Roboto-Bold";
+  position: absolute;
+  z-index: 20;
+  top: 50%;
+  left: 20%;
+}
+
+/* ! footer  */
+.footer-wrapper {
+  background-color: grey;
+  padding: 20px 0 10px 0;
+  font-family: "Roboto-Bold";
+  color: white;
+}
+
+/* ! latar */
+.latar-wrapper {
+  margin-top: 70px;
+}
+
+.latar-title {
+  background-color: orange;
+  padding: 35px 0;
+}
+
+blockquote {
+  font-family: "Roboto-Regular";
+  position: relative;
+  margin: 0.5em;
+  padding: 0.5em 2em 0.5em 3em;
+}
+/* Thanks: http://callmenick.com/post/styling-blockquotes-with-css-pseudo-classes */
+blockquote:before {
+  font-family: "Roboto-Regular";
+  position: absolute;
+  font-size: 6em;
+  line-height: 1;
+  top: 0;
+  left: 0;
+  content: "\201C";
+}
+blockquote:after {
+  font-family: "Roboto-Regular";
+  position: absolute;
+  /* display: block; don't use this, it raised the quote too high from the bottom - defeated line-height? */
+  float: right;
+  font-size: 6em;
+  line-height: 1;
+  right: 0;
+  bottom: -0.5em;
+  content: "\201D";
+}
+blockquote footer {
+  padding: 0 2em 0 0;
+  text-align: right;
+}
+blockquote cite:before {
+  content: "\2013";
+}
+
+/* ! visi misi */
+.arti-company p,
+.visi-company p,
+.misi-company ul {
+  font-size: 25px;
+}
+
+/* ! layanan */
+.button-layanan {
+  color: black !important;
+  font-size: 20px;
+}
+
+.collapse .card-body p {
+  font-size: 18px;
+}
+
+/* ! kontak */
+.kontak-content {
+  margin: 0 auto;
+  text-align: center;
+}
+
+input,
+textarea {
+  width: 400px;
+  padding: 20px;
+  font-family: "Roboto-Bold";
+  border: 1px solid rgb(168, 163, 163);
+  margin: 10px 0 20px 0;
+  border-radius: 0.5em/0.5em;
+}
+
+.kontak-button {
+  color: white;
+  background-color: #ffb142;
+  box-shadow: 0px 7px #cc8e35;
+  border: none;
+  cursor: pointer;
+}
+
+.kontak-button:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
+.kontak-button:focus {
+  outline: 0;
+}
